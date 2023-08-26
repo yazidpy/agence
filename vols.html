@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vols.css">
+    <title>Vols</title>
+</head>
+<body>
+    <div class="header">
+            <div class="partie-1">
+             <div class="img">
+              <img src="images/star.webp">
+              </div>
+                <div class="logo-prt">
+            <h3 class="logo">Voyageo.Com</h3>
+            </div>
+           </div>
+            <div class="partie-2">
+            <div class="lien-im">
+                <div class="img">
+            <img src="images/prsnblue.webp">
+            </div>
+            <div class="hrf">
+            <a href="">Connexion</a>
+            </div>
+            </div>
+            <div class="lien-im">
+                <div class="img">
+            <img src="images/revher.jpg">
+            </div>
+            <div class="hrf">
+            <a href="">Recherches récentes </a>
+            </div>
+            </div>
+            <div class="lien-im">
+                <div class="img">
+            <img src="images/intero.jpg">
+            </div>
+            <div class="hrf">
+            <a href="">Pouvons-nous vous aider?</a>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="recherche">
+<div class="ligne1">
+    <div class="type-radio">
+        <div>
+            <input type="radio" id="choice1"
+             name="radios" value="" onclick="tester1()"checked>
+            <label for="choice1">Aller-retour</label>
+            <input type="radio" id="choice2"
+             name="radios" value="" onclick="tester2()">
+            <label for="choice2">Aller-Simple</label>
+            <input type="radio" id="choice3"
+             name="radios" value="" onclick="tester3()">
+            <label for="choice3">Plusieurs vols</label>
+          </div>
+</div>
+<div>
+    <select>
+    <option value="">économique</option>
+    <option value="">éco premium</option>
+    <option value="">affaire</option>
+    <option value="">première</option>
+</select>
+</div>
+</div>
+<form>
+<div class="ligne2">
+<div class="lign2-input">
+<input  class="lieu_dep" type="text" placeholder="Lieu de départ">
+<input  class="lieu_ret" type="text"  placeholder="Lieu de retour">
+<input class="" type="taxt" placeholder="Date Départ" onfocus="(this.type='date')"> 
+<input class="date_retour" type="taxt" placeholder="Date Retour" onfocus="(this.type='date')"> 
+<input class="nbr-prsn" type="button" value="1 Voyageur">
+<input  class="submit1" type="submit" value="modifier">
+</div>
+<div class="ligne3">
+<div class="ligne3-input">
+    <div class="ligne3-input3">
+    <input  class="lieu_dp" type="text" placeholder="Lieu de départ">
+    <input  class="lieu_av" type="text" placeholder="Lieu de départ">
+    <input class="" type="taxt" placeholder="Date Départ" onfocus="(this.type='date')"> 
+</div>
+<div class="ligne3-input3"> 
+    <input  class="lieu_dp" type="text" placeholder="Lieu de départ">
+    <input  class="lieu_av" type="text" placeholder="Lieu de départ">
+    <input class="" type="taxt" placeholder="Date Départ" onfocus="(this.type='date')"> 
+</div>
+<div class="btn_btn">
+<input  class="submit2" type="submit" value="rechercher" >
+</div>
+</div>
+</div>
+</div>
+<div class="wrapp">
+<div class="ext"><img src="images/close-outline.svg"></div>
+    <div class="parti1">
+    <div class="txt">
+    <p>Adulte(s)[>12 ans]</p>
+    </div>
+    <div class="btn">
+    <input type="button" value="-" class="moins moins1">
+    <input type="button"  value="1" class="nombre nombre1" disabled="disabled">
+    <input type="button" value="+" class="plus1">
+    </div>
+    </div>
+    <div class="parti1">
+        <div class="txt">
+        <p>Enfants(s)[2- 11 ans]</p>
+        </div>
+        <div class="btn">
+        <input type="button" value="-" class="moins moins2">
+       <input type="button"  value="0" class="nombre nombre2" disabled="disabled">
+       <input type="button" value="+" class="plus2">
+
+        </div>
+        </div>
+
+
+        <div class="parti1">
+            <div class="txt">
+            <p>Bébé(s)[< 2 ans]</p>
+            </div>
+            <div class="btn">
+        <input type="button" value="-" class="moins moins3">
+       <input type="button"  value="0" class="nombre nombre3" disabled="disabled">
+        <input type="button" value="+" class="plus3">
+            </div>
+            </div>
+            
+    
+    </div>
+</form>
+</div>
+</div>
+
+<script src="java_script/vols.js"></script>
+</body>
+</html>

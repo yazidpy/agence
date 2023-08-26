@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+}
+.header{
+background-color:white;
+   position: sticky;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   height: 2.8em;
+   padding-bottom: 2rem;
+   box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   justify-content: center;
+}
+.header .partie-1 .logo-prt h3{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    color:rgb(3, 90, 250) ;
+}
+.header .partie-1 {
+    margin-top: 0.5rem;
+    display: flex;
+}
+.header .partie-1 img{
+    width: 4rem;
+    height: 3.5rem;
+}
+.header .partie-2{
+height: 2rem;
+margin-top:0.5rem;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.header .partie-2 .lien-im:hover{
+    background-color: rgb(189, 209, 247) ;
+}
+.header .partie-2 .lien-im{
+    display: flex;
+    height: 100%;
+    border-radius: 4rem;
+    border: 1px solid rgb(3, 90, 250) ;
+}
+.header  img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 15rem;
+    margin-top: 0.5rem;
+}
+.header  .partie-2 .lien-im .hrf{
+    margin-top: 1.5rem;
+}
+.header  .partie-2 .lien-im .hrf a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(3, 90, 250) ;
+    font-weight: 500;
+}
+.recherche input{
+    margin-left: 1rem;
+}
+@keyframes slider {
+    0%
+    {background: url('../images/avion12.jpg') no-repeat 50% 70%;}
+    
+    33.33%{
+       background: url('../images/vol6.jpg') no-repeat 80% 50%;
+    }
+    
+    66.67%{
+       background: url('../images/avion3.jpg') no-repeat 70% 80% ;
+    }
+    100% 
+    {background: url('../images/home-slide-3.jpg') no-repeat 40% 70%;}
+ } 
+.recherche{
+    background:url(../images/home-slide-3.jpg) 100% 100% ;
+    /* animation: slider  70s  ease-in-out infinite; */
+    margin-top: 2rem;
+    height: auto;
+    width: 100%;
+    background-color:transparent;
+    color: white;
+    font-size: 1.5rem;
+}
+.recherche .ligne3{
+    display: none;
+}
+.recherche .ligne1 .type-radio{
+    margin-top: 2rem;
+}
+.recherche .ligne1 input{
+    margin-left: 3rem;
+}
+.recherche .ligne1 select option{
+    color:black;
+    background-color: rgb(255, 255, 255);
+}
+.recherche .ligne1 select{
+    margin-top: 2rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 3rem;
+    text-transform: capitalize;
+}
+.recherche .ligne1{
+    padding: 1rem 1rem;
+    display: flex;
+}
+.recherche .ligne1 .type-radio{
+    display: flex;
+}
+.recherche .ligne2{
+    padding: 3rem 3rem;
+}
+.recherche .ligne2 input:focus{
+    border: none;
+    color: white;
+    background-color:rgb(7, 89, 241);
+    box-shadow: 1px 1px 1px 1px #000;
+}
+.recherche .ligne2 input{
+    background-color: white;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+}
+.recherche .ligne2 input:nth-of-type(1){
+    border-top-left-radius: 3rem ;
+    border-bottom-left-radius: 3rem;
+}
+.recherche .ligne2 input:nth-of-type(6){
+    width: 8rem;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 3rem;
+}
+.recherche .ligne2 input:nth-of-type(6):hover{
+    color: white;
+    border: 2px solid white;
+    background-color:rgb(3, 90, 250);
+}
+.recherche .ligne2 input:nth-of-type(5){
+    border-bottom-right-radius: 3rem;
+    width: 8rem;
+    height:2.8rem;
+    border-top-right-radius: 3rem ;
+}
+.recherche .ligne2 input:nth-of-type(3),input:nth-of-type(4){
+    width: 10rem;
+}
+input[type=radio] 
+{ border: 0px; 
+  width:2rem;
+  height: 1.5rem;
+ }
+.recherche .ligne2 .ligne3-input input{
+    height: 2.5rem;
+    width: 20rem;
+}
+.recherche .ligne2 .btn_btn .submit2{
+    background-color: white;
+    color: #005dad;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    width: 9rem;
+}
+.recherche .ligne2 .btn_btn .submit2:hover{
+    background-color: #005dad;
+    color: white;
+}
+.recherche .ligne2 .ligne3-input3 input:nth-of-type(3)
+{
+    border-top-right-radius: 3rem ;
+    border-bottom-right-radius: 3rem;
+}
+.recherche .ligne2 .ligne3-input .ligne3-input3{
+margin-top: 1rem;
+}
+.wrapp{
+     display: none;
+     position: absolute;
+     left: 45%;
+     right: 0%;
+     border-radius: 0.5rem;
+     background-color:white;
+     margin-top: 4rem;
+     font-size: 1.7rem;
+     width: 30rem;
+     color: black;
+     height: auto;
+     box-shadow: 1px 1px 1px 1px #777;
+ }
+ .wrapp .ext{
+     float: right;
+    }
+    .wrapp .ext:hover{
+        background-color: rgb(238, 231, 210);
+    }
+ .wrapp .ext img{
+     height: 2rem;
+     width: 2rem;
+ }
+.wrapp .parti1:nth-child(2){
+    border-top: 2px dashed black;
+    display: block;
+    margin-top: 2.5rem;
+}  
+.wrapp .parti1{
+    margin-top: 3rem;
+}
+.wrapp .parti1 .txt{
+    margin-left: 0.5rem;
+    margin-top: 1.75rem;
+    float: left;
+}
+.wrapp .parti1 .btn{
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    float: right;
+}
+.wrapp .parti1 .btn input{
+    border-radius: 5rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    height: 3rem;
+    border: 1px solid rgb(3, 90, 250);
+    background-color: transparent;
+    width: 3rem;
+}
+
+
+

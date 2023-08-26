@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+       <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+     <title>Acceuil</title>
+
+     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+</head>
+<body>
+   <section class="header2">
+      <nav class="navbar2">
+      <a href="#" ><i class="fas fa-phone"></i>+213558820313 </a>
+      <a href="#"><i class="fas fa-envelope"></i>yazidaliche8@gmail.com</a>
+      <div class="icn">
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+          </div>
+      </nav> 
+      </section>
+<section class="header">
+<ul class="navbar">
+ <a href="" class="logo active ">Voyageo.Com</a>
+<li><a class="active" href="#" >Acceuil</a></li>
+<li><a  class="page-vol" href="vols.html" >Vols</a></li>
+<li><a  class="page-hotel" href="#" >Hôtels<span>&#9660;</span></a></li>
+<li><a  class="page-sejour" href="#" >Séjours</a></li>
+<li><a class="page-voyage" href="#" >Voyage<span>&#9660;</span></a></li>
+<li><a class="page-omra" href="#" >Omra</a></li>
+<div class="connex">
+<a  href=""><img src="images/person-circle-outline.svg">Mon compte</a>
+</div>
+</ul>
+<!--  
+<div id="menu-btn" class="fas fa-bars"></div>
+-->
+</nav>
+</nav>
+</section>
+<section class="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background:url(images/tunisie.jpg) no-repeat">
+            <div class="content">
+               <h3>travel arround the world</h3>
+               <a href="" class="btn">Réserver</a>
+              
+</div>
+</div>
+            <div class="swiper-slide slide" style="background:url(images/Itlay.jpg) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>discover the new places</h3>
+               <a href="package.php" class="btn">Réserver</a>
+            </div>
+         </div>
+         <div class="swiper-slide slide" style="background:url(images/turc.jpg) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>make your tour worthwhile</h3>
+               <a href="package.php" class="btn">Réserver</a>
+            </div>
+         </div>
+         
+      </div>
+
+   <div class="swiper-pagination"></div>
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
+
+ </div>
+</section>
+<div class="section2">
+   
+   <div class="remarques">
+      <h1 class="hh">Pourquoi réserver votre vol<br> avec Voyageo.Com?</h1>
+      <p><img src="./images/succed.webp">Garantie le prix le plus bas</p>
+      <p><img src="./images/succed.webp">Réservation en ligne gratuite</p>
+      <p><img src="./images/succed.webp">Service client à l'écoute</p>
+      </div>
+   
+<h1> Rechercher,Réservez. <strong>Voyagez</strong></h1>
+<div class="titres">
+<div class="border"><a class=" vol active2" id="vol" href="" >  <i class="fas fa-plane"></i> Vols</a></div>
+<div class="border"><a id="hotel" href="" >  <i class="fas fa-hotel"></i> Hôtels</a></div>
+<div class="border"><a id="votel" href="" >  <i class="fas fa-hotel"></i> Hôtels + Vols <i class="fas fa-plane"></i></a></div>
+<div class="border"><a id="voiture" href="" > <i class="fas fa-car"></i>Location de Voiture</a> </div>
+</div>
+<div class="vols">
+<div class="option"> 
+   <a href="" class="active3 option1" href="">Aller-retour</a>
+   <a  href =""class="option2" href="">Aller-Simple</a>
+   <a  href="" class="option3" href="">Multi-destinations</a>
+</div>
+<div class="partie1">
+<div class="input">
+<input type="taxt" placeholder="D'ou partez-vous?">
+<input type="taxt" placeholder="Ou allez-vous?">
+<input  type="taxt" placeholder="Quand partez-vous?" onfocus="(this.type='date')"> 
+<input class="retour" type="taxt" placeholder="Quand rentrez-vous ?" onfocus="(this.type='date')"> 
+<input type="taxt"  id="adulte" value="adulte" disabled="disabled" >
+</div>
+<div class="inputs">
+</div>
+<div class="Wrapper">
+    <button class="exit">x</button>
+    <div class="choix1">
+       <div class="par">
+      <p>Adultes(>12ans)</p>
+  </div>
+    <div class="inputes">
+   <input class="chiffre"  type="submit" value="1"> 
+   <input  class="moins" type="submit" value="-"> 
+   <input class="plus" type="submit" value="+">
+   </div>
+   </div>
+   <div class="choix1">
+      <div class="par">
+         <p>Enfans(1-11ans)</p>
+     </div>
+         <div class="inputes">
+      <input class="chiffre1" type="submit" value="0"> 
+      <input class="moins1"  type="submit" value="-"> 
+      <input class="plus1" type="submit" value="+">
+      </div>
+      </div>
+      <div class="choix1">
+         <div class="par">
+            <p>Bébés(1-24mois)</p>
+        </div>
+            <div class="inputes">
+         <input class="chiffre2" type="submit" value="0"> 
+         <input class="moins2" type="submit" value="-"> 
+         <input class="plus2" type="submit" value="+">
+         </div>
+         </div>
+</div>
+<div class="button2">
+<input type="submit" class="btn2" value="Rechercher des vols">
+<input id="btn2" type="submit" class="btn2" value="Rechercher vols + hôtels">
+</div>
+</div>
+</div>
+<div class="hotels">
+<input type="taxt" placeholder="pays,ville ou quartier">
+<div class="grid3">  
+<input  type="taxt"  placeholder="Arrivé" onfocus="(this.type='date')"> 
+<input  type="taxt" placeholder="Départ" onfocus="(this.type='date')"> 
+<input type="number" placeholder="nombre de personne" min="1" max="9" >
+</div>
+<div class="margin-left">
+<input type="submit" class="btn2" value="Rechercher des Hôtels">
+</div>
+</div>
+<div class="partie_voiture">
+   <h2>Vous êtes un membre ? Connectez-vous pour bénéficier de 50 € de réduction sur la location de voiture !
+      Me connecter?</h2>
+   <div class="grid2"> 
+  <div><input type="taxt" placeholder="Lieu de prise en charge"></div>
+  <div><input class="restitution" type="taxt" placeholder="Lieu de restitution"></div>
+   </div>
+   <div class="chek">
+<label><input type="checkbox" class="checkbox" onclick="tester()" >restitution au même endroit</label>
+</div>
+<div class="grid4">
+  <div> <input  type="taxt" placeholder="Date de début" onfocus="(this.type='date')"> </div>
+   <div>   <input  type="taxt" placeholder="L'heure de début" onfocus="(this.type='time')"></div>
+      <div> <input  type="taxt" placeholder="Date de fin" onfocus="(this.type='date')"> </div>
+         <div><input  type="taxt"placeholder="L'heure de fin" onfocus="(this.type='time')"> </div>
+</div>
+<div class="margin-left"><input type="submit" class="btn2" value="Rechercher une voiture"></div>
+<div class="logo">
+   <img src="./images/audi.jpg"> 
+   <img src="./images/bm.webp">
+   <img src="./images/skod.jpg">
+   <img src="./images/pig.webp">
+   <img src="./images/volv.jpg">
+   <img src="./images/da.jpg">
+   <img src="./images/citroen.jpg">
+   <img src="./images/rn.jpg">
+</div>
+</div>
+</div>
+<section class="section3">
+<div class="decouvrir">
+   <div class="titre">
+<h1>Voyagez grande<br><span>découvrez l'australie</span></h1>
+</div>
+      <div class="btn-decouvrir">
+         <a href="">Explorez Maintenant</a>
+      </div>
+<div class="logo-austr">
+   <img src="./images/logaus.png" alt="">
+</div>
+</div>
+</section>
+<div class="offres">
+<div class="titre-offre">
+<div class="t1"> 
+   <div>
+   <img src="./images/incen.jpg">
+   </div>
+   <div class="ecr">
+   <span>Promotion</span>
+   <h3>MEILLEURES OFFRES</h3>
+  <p>Vous ne trouverez ces prix qu'ici !</p>
+  </div>
+</div>
+<div class="t2">
+   <div class="t2-1">
+   <input type="taxt" placeholder="Lieu de départ?">
+<button value="1" class="btn-vyg">1 voyageur</button>
+</div>
+<div class="choisir-vyg">
+   <button class="close">fermer</button>
+   <button value="2" class="btn-vy">2 voyageurs</button>
+   <button value="3" class="btn-vy">3 voyageurs</button>
+   <button value="4" class="btn-vy">4 voyageurs</button>
+   <button value="5" class="btn-vy">5 voyageurs</button>
+   <button value="6" class="btn-vy">6 voyageurs</button>
+   <button value="7" class="btn-vy">7 voyageurs</button>
+   <button value="8" class="btn-vy">8 voyageurs</button>
+   <button value="9" class="btn-vy">9 voyageurs</button>
+</div>
+</div>
+</div>
+
+
+<div class="container-offre">
+<div class="box-container">
+   <div class="box-img">
+   <img src="./images/tunisie.jpg" alt="">
+   </div>
+<div class="box">
+   <span class="epuise">Bientôt épuisé</span>
+<p>1 oct- 4 oct</p>
+<span class="lieu">Paris</span>
+<span class="spane2"><i>à partir de</i> </span>
+<span class="prix">15,<span class="vergule">98 $</span></span>
+<span class="spane3">Prix prime Par passager </span>
+</div>
+</div>
+<div class="box-container">
+   <div class="box-img">
+   <img src="./images/home-slide-3.jpg" alt="">
+   </div>
+<div class="box">
+<p>1 oct- 4 oct</p>
+<span class="lieu">Paris</span>
+<span class="spane2"><i>à partir de</i> </span>
+<span class="pourcentage">-45%</span>
+<div class="prix-ajour">
+   <span class="ancien">15,98</span>
+<span class="nv-prix">15,<span class="nv-vergule">98 $</span></span>
+</div>
+<span class="spane3">Prix prime Par passager </span>
+</div>
+</div>
+<div class="box-container">
+   <div class="box-img">
+   <img src="./images/home-slide-2.jpg" alt="">
+   </div>
+<div class="box">
+<p>1 oct- 4 oct</p>
+<span class="lieu">Paris</span>
+<span class="spane2"><i>à partir de</i> </span>
+<span class="prix">15,<span class="vergule">98 $</span></span>
+<span class="spane3">Prix prime Par passager </span>
+</div>
+</div>
+<div class="box-container">
+   <div class="box-img">
+   <img src="./images/turc.jpg" alt="">
+   </div>
+<div class="box">
+<p>1 oct- 4 oct</p>
+<span class="lieu">Paris</span>
+<span class="spane2"><i>à partir de</i> </span>
+<span class="prix">15,<span class="vergule">98 $</span></span>
+<span class="spane3">Prix prime Par passager </span>
+</div>
+</div>
+<div class="box-container">
+   <div class="box-img">
+   <img src="./images/marroco.jpg" alt="">
+   </div>
+<div class="box">
+<p>1 oct- 4 oct</p>
+<span class="lieu">Paris</span>
+<span class="spane2"><i>à partir de</i> </span>
+<span class="prix">15,<span class="vergule">98 $</span></span>
+<span class="spane3">Prix prime Par passager </span>
+</div>
+</div>
+<div class="box-container">
+   <div class="box-img">
+   <img src="./images/bali.jpg" alt="">
+   </div>
+<div class="box">
+<p>1 oct- 4 oct</p>
+<span class="lieu">Paris</span>
+<span class="spane2"><i>à partir de</i> </span>
+<span class="prix">15,<span class="vergule">98 $</span></span>
+<span class="spane3">Prix prime Par passager </span>
+</div>
+</div>
+
+
+</div>
+<button class="charger">charger plus d'offres</button>
+
+   <div class="rmq">
+<h3>Voyagez au meilleur prix</h3>
+<div class="p">
+<img src="./images/checkmark-outline.svg"><p>Plus de combinaisons de vols que n'importe qui</p>
+<img src="./images/checkmark-outline.svg"><p>Changement de date gratuit sur de nombreux vols</p>
+<img src="./images/checkmark-outline.svg"><p>Nous comparons des millions d'hôtels et d'hébergements</p>
+</div>
+</div>
+<div class="recevez">
+<h3> Recevez en avant-première:</h3>
+<div class="aligner">
+<img src="./images/emableu.png">
+<img src="./images/checkmark-outline.svg"><p>Des réductions sur vos voyages</p>
+<img src="./images/checkmark-outline.svg"><p>Des codes promo</p>
+<img src="./images/checkmark-outline.svg"><p>Des offres exclusives</p>
+<input type="email" placeholder="Saisissez votre adresse e-mail">
+<input type="button" value="S'inscrire">
+</div>
+</div>
+<div class="titre-offre2">
+ <div class="cnt">
+ <a class="active4" href="">Offres à saisir</a>
+  <a href="">Encapades</a>
+  <a href="">Infos Voyage</a>
+   </div>
+   <h1> Dernières offres de vols et séjours</h1>
+   </div>
+<div class="container-offre2">
+<div class="box-container2">
+<div class="img">
+   <img src="./images/tou1.jpg">
+</div>
+<div class="box-2">
+<p>Lorem, ipsum dolor sit amet consectetur</p>
+<a href="">Je découvre</a>
+</div>
+</div>
+
+
+<div class="box-container2">
+
+   <div class="img">
+      <img src="./images/tou1.jpg">
+   </div>
+   <div class="box-2">
+   <p>Lorem, ipsum dolor sit amet consectetur</p>
+   <a href="">Je découvre</a>
+   </div>
+   </div>
+
+   <div class="box-container2">
+      <div class="img">
+         <img src="./images/tou1.jpg">
+      </div>
+      <div class="box-2">
+
+      <p>Lorem, ipsum dolor sit amet consectetur</p>
+      <a href="">Je découvre</a>
+      </div>
+      </div>
+      <div class="box-container2">
+         <div class="img">
+            <img src="./images/tou1.jpg">
+         </div>
+         <div class="box-2">
+
+         <p>Lorem, ipsum dolor sit amet consectetur</p>
+         <a href="">Je découvre</a>
+         </div>
+         </div>   
+      <div class="box-container2">
+         <div class="img">
+            <img src="./images/tou1.jpg">
+         </div>
+         <div class="box-2">
+
+         <p>Lorem, ipsum dolor sit amet consectetur</p>
+         <a href="">Je découvre</a>
+         </div>
+         </div>
+
+   <div class="box-container2">
+      <div class="img">
+         <img src="./images/tou1.jpg">
+      </div>
+      <div class="box-2">
+      
+      <p>Lorem, ipsum dolor sit amet consectetur</p>
+      <a href="">Je découvre</a>
+      </div>
+      </div>
+</div>
+<!--
+<div class="box-hotels">
+<div class="box1">
+<img src="./images/hotre.jpg">
+<div class="taxt->hot">
+   <h1>Hôtel</h1>
+   <h3>votre séjour avec <br>annulation gratuite</h3>
+   <a  href="#">Réserver</a>
+</div>
+</div>
+  -->  
+  <div class="propos">
+        <div class="propos-titre">
+  <h1 class="">Agence multi services</h1>
+     </div>
+<div class="tout">
+<div class="part1">
+    <img src="images/rocket-outline.svg"> 
+   <h2>Mesurez votre bagage à main</h2>
+   <p>Votre bagage à main vous paraît trop grand ? Scannez-le avec votre téléphone pour vérifier s'il correspond aux normes de la compagnie aérienne</p>
+</div>
+<div class="part1">
+    <img src="images/airplane-outline (1).svg"> 
+   <h2>Suivez n'importe quel vol en direct</h2>
+   <p>Tout ce que vous voulez savoir sur tous les vols, dans le monde entier, que vous soyez passager ou non.</p>
+</div>
+<div class="part1">
+    <img src="images/shield-checkmark-outline.svg">
+   <h2>Codes de réduction spécifiques à l'app</h2>
+   <p>Économisez encore plus sur votre voyage en réservant dans l'app avec nos codes de réduction exclusifs pour l'app</p>
+</div>
+</div>
+
+<div class="tout2">
+   <div class="part1">
+       <img src="images/ribbon-outline.svg"> 
+      <h2>L'appli fait l'enregistrement pour vous</h2>
+      <p>Demandez vos cartes d'embarquement à l'avance, nous vous les enverrons par e-mail. Rien de plus simple </p>
+   </div>
+   <div class="part1">
+       <img src="images/num1.jpg"> 
+      <h2>Ne manquez aucune notification de vol</h2>
+      <p>Recevez gratuitement et en temps réel des mises à jour sur les horaires, la porte d'embarquement, le tapis bagages, etc.</p>
+   </div>
+   <div class="part1">
+       <img src="images/msf.png">
+      <h2>Plus d'options de voyage que n'importe qui</h2>
+      <p>L'appli compare plus de 2 000 000 hébergements, plus de 900 agences de location de voitures et plus de 600 compagnies aériennes.</p>
+   </div>
+   </div>
+   <div class="avant">
+      <img class="avan"   src="images/chevron-back-circle-outline.svg">
+     <img class="apres"    src="images/chevron-forward-circle-outline.svg">
+   </div>
+
+</div>
+<div class="grid-3 footer">
+<div class="vous-aider grid margin-left-5">
+   <h1>Plus d'infos !</h1>
+
+   <a href="#">Qui sommes-nous? </a>
+   <a href="#">Centre d'aide </a>
+   <a href="#">Emploi </a>
+   <a href="#">Plan de site </a>
+   <a href="#">Bon reduction </a>
+   <a href="#">Blog de voyage </a>
+
+</div>
+<div class="restez-branchez ">
+   <h1>Restez branchés !</h1>
+   <p>Suivez-nous et soyez au courant à tout moment<br> de nos meilleures offres et promos :</p>
+   <img src="images/fbk.png">
+   <img src="images/insta.webp">
+   <img src="images/ytb.webp">
+   <img src="images/twit.png">
+</div>
+<div class="reserver-avec margin-left-5 margin-right-5 ">
+   <h1>Réserver son billet d'avion avec nous</h1>
+   <p>Réservez votre billet d'avion au meilleur prix avec le comparateur de vol Voyageo.com
+   Notre agence de voyages vous propose des vols chers partout dans le monde sur plusieurs centaines de compagnies aériennes.</p>
+</div>
+</div>
+<div class="liens margin-left-5">
+   <h1>Lien sur le site</h1>
+   <div class="liens">
+   <a href="#">Hôtels</a>
+   <a href="#">Vols</a>
+   <a href="#">Omra</a>
+   <a href="#">Location de voiture</a>
+   <a href="#">Séjours</a>
+   <a href="#">Voyage</a>
+   <a href="#">Billet d'avion</a>
+   <a href="#">Vol pas cher</a>
+   <a href="#">agence de voyage</a>
+   <a href="#">Comparer les vols</a>
+   <a href="#">Vols dérniere minutes</a>
+   <a href="#">Week-end</a>
+   <a href="#">Vacances pas chères</a>
+   <a href="#">Nos destinations</a>
+   <a href="#">Voyagez en France</a>
+   <a href="#">Vol Paris </a>
+   <a href="#">Voyagez en Espagne</a>
+   <a href="#">Vol Barcelone</a>
+   <a href="#">vol Londres</a>
+   <a href="#">vol New york</a>
+   <a href="#">vol marrakech</a>
+   <a href="#">Air France</a>
+   <a href="#">Air Algérie</a>
+   <a href="#">vol Londres</a>
+   </div>
+</div>
+</div>
+
+<div class="footer-2">
+   <div class="footer-2-titre">
+  <img src="images/star.webp"> <h1>Voyageo.Com</h1>
+  </div>
+  <div class="href">
+  <a href="#">Condition générales de vente </a>
+  <a href="#">Politique de confidentialité </a>
+  </div>
+  <div class="taxt">
+  <p>*Prix TTC « à partir de », selon disponibilités et soumis à conditions.</p>
+  <p>Voir les conditions applicables pour chaque offre et accessibles sur le site.</p>
+  <p>*Comparaison des vols effectuée avec le tarif de base (hors compléments) pour le même numéro de vol. Comparaison mensuelle portant sur 20 000 vols en moyenne. Comparaison des hôtels effectuée avec les tarifs de base pour la même chambre d'hôtel et les mêmes dates. Hôtels dans les 25 premières destinations et les 20 premiers résultats de recherche. Prix le plus bas 9 fois sur 10 en moyenne pour les vols et les hôtels. Dans le cas peu probable où vous </p>
+<p>trouveriez un prix moins cher, nous offrons notre <a href="#"> Garantie du meilleur prix.</a></p>
+<p>© 1999-2022 eDreams. Tous droits réservés - Vacaciones eDreams, S.L. société soumise au droit espagnol, inscrite au registre du commerce de Madrid, Tomo 36897, Folio 121, Hoja M-660117 dont le siège social est Calle de Manzanares, nº 4, Planta 1º, Oficina 108, 28005, Madrid, Espagne ayant pour numéro TVA ESB-61965778, immatriculée au Registre des opérateurs de voyages et de séjours auprès de Atout France sis 79/81 rue de Clichy 75009 Paris, sous le numéro IM099170015, agréée IATA. Toutes communications à Vacaciones eDreams S.L doivent être envoyées par courriel au customerservice-</p>
+<p>yazidaliche8@gmail.com</p>
+<p>Si vous avez soumis une réclamation auprès de notre Service Client, mais que notre réponse ne vous satisfait pas : vous pouvez contacter la Médiation Tourisme et Voyage sur leur site www.mtv.travel ou par voie postale MTV Médiation Tourisme Voyage BP 80 303 75 823 Paris cedex 17.
+   Vous pouvez nous contacter au sujet de votre remboursement dès maintenant via notre Centre d'aide.</p>
+</div>
+</div>
+<img src="images/avion3.jpg" alt="">
+
+
+ <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> 
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
+   <script src="java_script/java_script.js"></script>
+   <script src="/java_script/jquery-3.6.0.min.js"></script>
+</body>
+</html>
